@@ -372,5 +372,14 @@
     <Image Include="assets\Icon.ico">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="x64\Release\icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="x64\Debug\icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

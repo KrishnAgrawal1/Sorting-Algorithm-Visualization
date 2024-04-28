@@ -2,6 +2,7 @@
 
 #include "resources.hpp"
 #include "ui.hpp"
+#include "audio.hpp"
 
 class Game
 {
@@ -10,6 +11,7 @@ private:
 	sf::Event ev;
 	sf::VideoMode videoMode;
 	std::chrono::milliseconds delay_ms;
+	sf::Image icon;
 
 	bool pause;
 	bool terminateSorting;
@@ -23,6 +25,7 @@ private:
 
 	//ui
 	ui interface;
+	Audio sound;
 
 	//Private Functions
 	void initializeVariables();

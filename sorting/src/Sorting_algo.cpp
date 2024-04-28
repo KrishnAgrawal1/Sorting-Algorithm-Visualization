@@ -21,6 +21,7 @@ void Game::selectionSort()
 				this->rect[j].setSize(temp);
 			}
 			this->mtx.unlock();
+			sound.play(0.5 + (j*0.01));
 			std::this_thread::sleep_for(this->delay_ms); // Sleep for the specified duration
 			this->rect[j].setFillColor(sf::Color::White);
 		}
@@ -52,6 +53,9 @@ void Game::bubbleSort()
 				this->rect[j+1].setSize(temp);
 			}
 			this->mtx.unlock();
+
+			sound.play(0.5 + (j * 0.01));
+
 			std::this_thread::sleep_for(this->delay_ms); // Sleep for the specified duration
 			this->rect[j].setFillColor(sf::Color::White);
 			this->rect[j+1].setFillColor(sf::Color::White);
@@ -79,6 +83,7 @@ void Game::insertionSort()
 
 			this->rect[j + 1].setFillColor(sf::Color::Red);
 
+			sound.play(0.5 + (j * 0.01));
 			std::this_thread::sleep_for(this->delay_ms);
 
 			this->rect[j+1].setSize(this->rect[j].getSize());
@@ -138,6 +143,7 @@ void Game::helperMerge(int begin, int mid, int end)
 		if (this->isterminateSorting()) return;
 
 		this->rect[begin + i].setFillColor(sf::Color::Red);
+		sound.play(0.5 + (i * 0.01));
 		std::this_thread::sleep_for(this->delay_ms);
 
 		left[i] = this->rect[begin + i].getSize().y;
@@ -150,6 +156,7 @@ void Game::helperMerge(int begin, int mid, int end)
 		if (this->isterminateSorting()) return;
 
 		this->rect[mid + j + 1].setFillColor(sf::Color::Red);
+		sound.play(0.5 + (j * 0.01));
 		std::this_thread::sleep_for(this->delay_ms);
 
 		right[j] = this->rect[mid + j + 1].getSize().y;
@@ -172,6 +179,7 @@ void Game::helperMerge(int begin, int mid, int end)
 			this->rect[k++].setSize(sf::Vector2f(x,right[j++]));
 
 		this->rect[k-1].setFillColor(sf::Color::Red);
+		sound.play(0.5 + (k * 0.01));
 		std::this_thread::sleep_for(this->delay_ms);
 		this->rect[k-1].setFillColor(sf::Color::White);
 
@@ -185,6 +193,7 @@ void Game::helperMerge(int begin, int mid, int end)
 		this->rect[k++].setSize(sf::Vector2f(x, left[i++]));
 
 		this->rect[k - 1].setFillColor(sf::Color::Red);
+		sound.play(0.5 + (i * 0.01));
 		std::this_thread::sleep_for(this->delay_ms);
 		this->rect[k - 1].setFillColor(sf::Color::White);
 	}
@@ -197,6 +206,7 @@ void Game::helperMerge(int begin, int mid, int end)
 		this->rect[k++].setSize(sf::Vector2f(x, right[j++]));
 
 		this->rect[k - 1].setFillColor(sf::Color::Red);
+		sound.play(0.5 + (j * 0.01));
 		std::this_thread::sleep_for(this->delay_ms);
 		this->rect[k - 1].setFillColor(sf::Color::White);
 	}
@@ -242,6 +252,8 @@ int Game::partition(int begin, int end)
 
 		this->rect[i].setFillColor(sf::Color::Red);
 		this->rect[j].setFillColor(sf::Color::Red);
+
+		sound.play(0.5 + (j * 0.01));
 		std::this_thread::sleep_for(this->delay_ms);
 
 		if (this->rect[j].getSize().y > piviot)
@@ -280,6 +292,7 @@ void Game::sortingCompleted()
 	{
 		this->rect[i].setFillColor(sf::Color::Green);
 		std::this_thread::sleep_for(this->delay_ms);
+		sound.play(0.5 + (i * 0.01));
 	}
 }
 

@@ -19,6 +19,10 @@ void Game::initWindow()
 	this->delay_ms = std::chrono::milliseconds(10);
 
 	this->interface.loadAssetes();
+
+	//this->icon = sf::Image{};
+	//this->icon.loadFromFile("icon.png");
+	//this->winmain->setIcon(this->icon.getSize().x, this->icon.getSize().y, this->icon.getPixelsPtr());
 }
 
 //Constructor
