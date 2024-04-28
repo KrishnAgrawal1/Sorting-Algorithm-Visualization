@@ -8,6 +8,12 @@ private:
 	sf::Font font;
 
 public:
+	sf::Color buttonBorderSelected;
+	sf::Color buttonTextSelected;
+
+	sf::Color buttonBorder;
+	sf::Color buttonText;
+
 	sf::Text titalHead;
 	sf::Text algoHead;
 
@@ -23,18 +29,22 @@ public:
 	sf::RectangleShape exitBtShape;
 	sf::Text exitBtText;
 
+
+	//Sorting algo button
 	sf::RectangleShape selectionSortBt;
 	sf::Text selectionSortText;
 
 	sf::RectangleShape bubbleSortBt;
 	sf::Text bubbleSortText;
 
-	//sf::RectangleShape exitBtShape;
-	//sf::Text exitBtText;
-	//sf::RectangleShape exitBtShape;
-	//sf::Text exitBtText;
-	//sf::RectangleShape exitBtShape;
-	//sf::Text exitBtText;
+	sf::RectangleShape insertionBtShape;
+	sf::Text insertionBtText;
+
+	sf::RectangleShape mergeBtShape;
+	sf::Text mergeBtText;
+
+	sf::RectangleShape quickBtShape;
+	sf::Text quickBtText;
 
 	void loadAssetes();
 
@@ -46,4 +56,7 @@ public:
 
 	void selectionSortButton();
 	void bubbleSortButton();
+	void insertionSortButton();
+	void mergeSortButton();
+	void quickSortButton();
 };

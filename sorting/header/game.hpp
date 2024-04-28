@@ -28,11 +28,25 @@ private:
 	void initializeVariables();
 	void initWindow();
 
-	//
 	void sortingCompleted();
 
 	void isPause();
 	bool isterminateSorting();
+
+	void changeSortingAlgo(int prev, int curr);
+
+	//Sorting algo
+	void selectionSort();
+	void bubbleSort();
+	void insertionSort();
+	void mergeSort();
+	void QuickSort();
+
+	void helperMergeSort(int begin, int end);
+	void helperMerge(int begin, int mid, int end);
+
+	void helperQuickSort(int begin, int end);
+	int partition(int begin, int end);
 
 public:
 	//to create new thread for sorting
@@ -53,9 +67,5 @@ public:
 
 	//rectangle function init
 	void initRectangle(int numberOfElements);
-
-	//Sorting algo
-	void selectionSort();
-	void bubbleSort();
 };
 

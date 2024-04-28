@@ -16,7 +16,7 @@ void Game::initWindow()
 	this->winmain = new sf::RenderWindow(this->videoMode, "Sorting", sf::Style::Titlebar | sf::Style::Close | sf::Style::Fullscreen);
 
 	this->winmain->setFramerateLimit(60);
-	this->delay_ms = std::chrono::milliseconds(1);
+	this->delay_ms = std::chrono::milliseconds(10);
 
 	this->interface.loadAssetes();
 }
@@ -74,6 +74,18 @@ void Game::pollEvents()
 							sortingThread = std::async(std::launch::async, &Game::bubbleSort, this);
 							break;
 
+						case 3:
+							sortingThread = std::async(std::launch::async, &Game::insertionSort, this);
+							break;
+
+						case 4:
+							sortingThread = std::async(std::launch::async, &Game::mergeSort, this);
+							break;
+
+						case 5:
+							sortingThread = std::async(std::launch::async, &Game::QuickSort, this);
+							break;
+
 					}
 				}
 
@@ -97,24 +109,32 @@ void Game::pollEvents()
 
 				if (this->interface.selectionSortBt.getGlobalBounds().contains(mousePosition))
 				{
+					this->changeSortingAlgo(this->sortingAlgoUsing,1);
 					this->sortingAlgoUsing = 1;
-
-					this->interface.selectionSortBt.setFillColor(sf::Color::Green);
-					this->interface.selectionSortText.setFillColor(sf::Color::Red);
-
-					this->interface.bubbleSortBt.setFillColor(sf::Color::White);
-					this->interface.bubbleSortText.setFillColor(sf::Color::Black);
 				}
 
 				if (this->interface.bubbleSortBt.getGlobalBounds().contains(mousePosition))
 				{
+					this->changeSortingAlgo(this->sortingAlgoUsing, 2);
 					this->sortingAlgoUsing = 2;
+				}
 
-					this->interface.selectionSortBt.setFillColor(sf::Color::White);
-					this->interface.selectionSortText.setFillColor(sf::Color::Black);
+				if (this->interface.insertionBtShape.getGlobalBounds().contains(mousePosition))
+				{
+					this->changeSortingAlgo(this->sortingAlgoUsing, 3);
+					this->sortingAlgoUsing = 3;
+				}
 
-					this->interface.bubbleSortBt.setFillColor(sf::Color::Green);
-					this->interface.bubbleSortText.setFillColor(sf::Color::Red);
+				if (this->interface.mergeBtShape.getGlobalBounds().contains(mousePosition))
+				{
+					this->changeSortingAlgo(this->sortingAlgoUsing, 4);
+					this->sortingAlgoUsing = 4;
+				}
+
+				if (this->interface.quickBtShape.getGlobalBounds().contains(mousePosition))
+				{
+					this->changeSortingAlgo(this->sortingAlgoUsing, 5);
+					this->sortingAlgoUsing = 5;
 				}
 
  				break;
@@ -141,6 +161,65 @@ void Game::render()
 	this->winmain->display();
 }
 
+void Game::changeSortingAlgo(int prev, int curr)
+{
+	switch (prev)
+	{
+		case 1:
+			this->interface.selectionSortBt.setFillColor(this->interface.buttonBorder);
+			this->interface.selectionSortText.setFillColor(this->interface.buttonText);
+			break;
+
+		case 2:
+			this->interface.bubbleSortBt.setFillColor(this->interface.buttonBorder);
+			this->interface.bubbleSortText.setFillColor(this->interface.buttonText);
+			break;
+
+		case 3:
+			this->interface.insertionBtShape.setFillColor(this->interface.buttonBorder);
+			this->interface.insertionBtText.setFillColor(this->interface.buttonText);
+			break;
+
+		case 4:
+			this->interface.mergeBtShape.setFillColor(this->interface.buttonBorder);
+			this->interface.mergeBtText.setFillColor(this->interface.buttonText);
+			break;
+
+		case 5:
+			this->interface.quickBtShape.setFillColor(this->interface.buttonBorder);
+			this->interface.quickBtText.setFillColor(this->interface.buttonText);
+			break;
+	}
+
+	switch (curr)
+	{
+	case 1:
+		this->interface.selectionSortBt.setFillColor(this->interface.buttonBorderSelected);
+		this->interface.selectionSortText.setFillColor(this->interface.buttonTextSelected);
+		break;
+
+	case 2:
+		this->interface.bubbleSortBt.setFillColor(this->interface.buttonBorderSelected);
+		this->interface.bubbleSortText.setFillColor(this->interface.buttonTextSelected);
+		break;
+
+	case 3:
+		this->interface.insertionBtShape.setFillColor(this->interface.buttonBorderSelected);
+		this->interface.insertionBtText.setFillColor(this->interface.buttonTextSelected);
+		break;
+
+	case 4:
+		this->interface.mergeBtShape.setFillColor(this->interface.buttonBorderSelected);
+		this->interface.mergeBtText.setFillColor(this->interface.buttonTextSelected);
+		break;
+
+	case 5:
+		this->interface.quickBtShape.setFillColor(this->interface.buttonBorderSelected);
+		this->interface.quickBtText.setFillColor(this->interface.buttonTextSelected);
+		break;
+	}
+}
+
 void Game::renderUI()
 {
 	this->winmain->draw(this->interface.titalHead);
@@ -163,6 +242,15 @@ void Game::renderUI()
 
 	this->winmain->draw(this->interface.bubbleSortBt);
 	this->winmain->draw(this->interface.bubbleSortText);
+
+	this->winmain->draw(this->interface.insertionBtShape);
+	this->winmain->draw(this->interface.insertionBtText);
+
+	this->winmain->draw(this->interface.mergeBtShape);
+	this->winmain->draw(this->interface.mergeBtText);
+
+	this->winmain->draw(this->interface.quickBtShape);
+	this->winmain->draw(this->interface.quickBtText);
 }
 
 //rectangle function init

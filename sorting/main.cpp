@@ -1,12 +1,9 @@
 #include "header/game.hpp"
 
-int main() {
-
+int main() 
+{
     Game game;
     game.initRectangle(100);
-
-    //game loop
-    //std::future<void> sortingThread = std::async(std::launch::async, &Game::selectionSort, &game);
 
     while (game.running())
     {

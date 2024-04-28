@@ -1,41 +1,4 @@
-﻿  main.cpp
-  game.cpp
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,64): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,64): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,64): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,64): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,46): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,46): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,46): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,46): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(186,21): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(186,21): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(186,21): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(186,21): warning C4244:             T=unsigned int
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(186,21): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(187,25): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(187,25): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(187,25): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(187,25): warning C4244:             T=unsigned int
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(187,25): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(192,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(192,77): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(192,77): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(192,77): warning C4244:             T=unsigned int
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(192,77): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(192,77): warning C4244:         and
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(192,77): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(192,77): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(192,77): warning C4244:         ]
-  Sorting_algo.cpp
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(5,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(34,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(63,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  ui.cpp
-  Generating Code...
-sfml-graphics-s-d.lib(Transformable.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(Transformable.obj)' or at ''; linking object as if no debug info
+﻿sfml-graphics-s-d.lib(Transformable.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(Transformable.obj)' or at ''; linking object as if no debug info
 sfml-graphics-s-d.lib(Color.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(Color.obj)' or at ''; linking object as if no debug info
 sfml-graphics-s-d.lib(VertexArray.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(VertexArray.obj)' or at ''; linking object as if no debug info
 sfml-graphics-s-d.lib(Shape.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(Shape.obj)' or at ''; linking object as if no debug info

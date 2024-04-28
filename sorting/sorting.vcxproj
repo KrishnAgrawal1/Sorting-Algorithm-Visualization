@@ -264,6 +264,9 @@
     <None Include="sfml\include\SFML\System\Vector2.inl" />
     <None Include="sfml\include\SFML\System\Vector3.inl" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\Icon.ico" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

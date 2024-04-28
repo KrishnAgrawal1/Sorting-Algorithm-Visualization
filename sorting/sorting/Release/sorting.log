@@ -1,0 +1,160 @@
+﻿  main.cpp
+  game.cpp
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,64): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,64): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,64): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,64): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,46): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,46): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,46): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(61,46): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(274,21): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(274,21): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(274,21): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(274,21): warning C4244:             T=unsigned int
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(274,21): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(275,25): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(275,25): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(275,25): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(275,25): warning C4244:             T=unsigned int
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(275,25): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(280,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(280,77): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(280,77): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(280,77): warning C4244:             T=unsigned int
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(280,77): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(280,77): warning C4244:         and
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(280,77): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(280,77): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(280,77): warning C4244:         ]
+  Sorting_algo.cpp
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(130,8): warning C4244: 'initializing': conversion from 'const T' to 'int', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(130,8): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(130,8): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(130,8): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(130,8): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(143,44): warning C4244: '=': conversion from 'const T' to '_Ty', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(143,44): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(143,44): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(143,44): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(143,44): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(143,44): warning C4244:         and
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(143,44): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(143,44): warning C4244:             _Ty=int
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(143,44): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(155,47): warning C4244: '=': conversion from 'const T' to '_Ty', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(155,47): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(155,47): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(155,47): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(155,47): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(155,47): warning C4244:         and
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(155,47): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(155,47): warning C4244:             _Ty=int
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(155,47): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,51): warning C4244: 'argument': conversion from '_Ty' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,51): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,51): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,51): warning C4244:             _Ty=int
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,51): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,51): warning C4244:         and
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,51): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,51): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,51): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,41): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,41): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,41): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(170,41): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,52): warning C4244: 'argument': conversion from '_Ty' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,52): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,52): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,52): warning C4244:             _Ty=int
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,52): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,52): warning C4244:         and
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,52): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,52): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,52): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,41): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,41): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,41): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(172,41): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,51): warning C4244: 'argument': conversion from '_Ty' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,51): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,51): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,51): warning C4244:             _Ty=int
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,51): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,51): warning C4244:         and
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,51): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,51): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,51): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,40): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,40): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,40): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(185,40): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,52): warning C4244: 'argument': conversion from '_Ty' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,52): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,52): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,52): warning C4244:             _Ty=int
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,52): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,52): warning C4244:         and
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,52): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,52): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,52): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,40): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,40): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,40): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(197,40): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(234,13): warning C4244: 'initializing': conversion from 'const T' to 'int', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(234,13): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(234,13): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(234,13): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(234,13): warning C4244:         ]
+  ui.cpp
+game.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+game.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::White" (?White@Color@sf@@2V12@B)
+game.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::Transformable::setPosition(class sf::Vector2<float> const &)" (?setPosition@Transformable@sf@@QAEXABV?$Vector2@M@2@@Z)
+game.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall sf::Transformable::~Transformable(void)" (??1Transformable@sf@@UAE@XZ)
+game.obj : error LNK2001: unresolved external symbol "public: __thiscall sf::Font::~Font(void)" (??1Font@sf@@QAE@XZ)
+game.obj : error LNK2001: unresolved external symbol "public: __thiscall sf::Font::Font(void)" (??0Font@sf@@QAE@XZ)
+game.obj : error LNK2001: unresolved external symbol "public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (??0RenderWindow@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z)
+game.obj : error LNK2001: unresolved external symbol "public: __thiscall sf::Color::Color(void)" (??0Color@sf@@QAE@XZ)
+game.obj : error LNK2001: unresolved external symbol "private: virtual void __thiscall sf::VertexArray::draw(class sf::RenderTarget &,class sf::RenderStates)const " (?draw@VertexArray@sf@@EBEXAAVRenderTarget@2@VRenderStates@2@@Z)
+game.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::Window::display(void)" (?display@Window@sf@@QAEXXZ)
+game.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::Window::setFramerateLimit(unsigned int)" (?setFramerateLimit@Window@sf@@QAEXI@Z)
+game.obj : error LNK2001: unresolved external symbol "public: bool __thiscall sf::WindowBase::pollEvent(class sf::Event &)" (?pollEvent@WindowBase@sf@@QAE_NAAVEvent@2@@Z)
+game.obj : error LNK2001: unresolved external symbol "public: bool __thiscall sf::WindowBase::isOpen(void)const " (?isOpen@WindowBase@sf@@QBE_NXZ)
+game.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (?draw@RenderTarget@sf@@QAEXABVDrawable@2@ABVRenderStates@2@@Z)
+game.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::RenderTarget::clear(class sf::Color const &)" (?clear@RenderTarget@sf@@QAEXABVColor@2@@Z)
+game.obj : error LNK2001: unresolved external symbol "private: virtual void __thiscall sf::Shape::draw(class sf::RenderTarget &,class sf::RenderStates)const " (?draw@Shape@sf@@EBEXAAVRenderTarget@2@VRenderStates@2@@Z)
+game.obj : error LNK2001: unresolved external symbol "public: class sf::Rect<float> __thiscall sf::Shape::getGlobalBounds(void)const " (?getGlobalBounds@Shape@sf@@QBE?AV?$Rect@M@2@XZ)
+game.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::Shape::setOutlineThickness(float)" (?setOutlineThickness@Shape@sf@@QAEXM@Z)
+game.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::Shape::setOutlineColor(class sf::Color const &)" (?setOutlineColor@Shape@sf@@QAEXABVColor@2@@Z)
+game.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::Shape::setFillColor(class sf::Color const &)" (?setFillColor@Shape@sf@@QAEXABVColor@2@@Z)
+game.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall sf::Shape::~Shape(void)" (??1Shape@sf@@UAE@XZ)
+game.obj : error LNK2001: unresolved external symbol "public: __thiscall sf::String::String(char const *,class std::locale const &)" (??0String@sf@@QAE@PBDABVlocale@std@@@Z)
+game.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Cyan" (?Cyan@Color@sf@@2V12@B)
+game.obj : error LNK2001: unresolved external symbol "public: virtual class sf::Vector2<float> __thiscall sf::RectangleShape::getPoint(unsigned int)const " (?getPoint@RectangleShape@sf@@UBE?AV?$Vector2@M@2@I@Z)
+game.obj : error LNK2001: unresolved external symbol "public: virtual unsigned int __thiscall sf::RectangleShape::getPointCount(void)const " (?getPointCount@RectangleShape@sf@@UBEIXZ)
+game.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::RectangleShape::setSize(class sf::Vector2<float> const &)" (?setSize@RectangleShape@sf@@QAEXABV?$Vector2@M@2@@Z)
+game.obj : error LNK2001: unresolved external symbol "public: __thiscall sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (??0RectangleShape@sf@@QAE@ABV?$Vector2@M@1@@Z)
+game.obj : error LNK2001: unresolved external symbol "public: static class sf::VideoMode __cdecl sf::VideoMode::getDesktopMode(void)" (?getDesktopMode@VideoMode@sf@@SA?AV12@XZ)
+game.obj : error LNK2001: unresolved external symbol "public: __thiscall sf::VideoMode::VideoMode(void)" (??0VideoMode@sf@@QAE@XZ)
+game.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::Text::setFillColor(class sf::Color const &)" (?setFillColor@Text@sf@@QAEXABVColor@2@@Z)
+game.obj : error LNK2001: unresolved external symbol "public: __thiscall sf::Text::Text(void)" (??0Text@sf@@QAE@XZ)
+Sorting_algo.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Red" (?Red@Color@sf@@2V12@B)
+Sorting_algo.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Green" (?Green@Color@sf@@2V12@B)
+Sorting_algo.obj : error LNK2001: unresolved external symbol "public: class sf::Vector2<float> const & __thiscall sf::RectangleShape::getSize(void)const " (?getSize@RectangleShape@sf@@QBEABV?$Vector2@M@2@XZ)
+ui.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::Transformable::setPosition(float,float)" (?setPosition@Transformable@sf@@QAEXMM@Z)
+ui.obj : error LNK2001: unresolved external symbol "public: bool __thiscall sf::Font::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadFromFile@Font@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ui.obj : error LNK2001: unresolved external symbol "public: __thiscall sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (??0Color@sf@@QAE@EEEE@Z)
+ui.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Black" (?Black@Color@sf@@2V12@B)
+ui.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::Text::setCharacterSize(unsigned int)" (?setCharacterSize@Text@sf@@QAEXI@Z)
+ui.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::Text::setFont(class sf::Font const &)" (?setFont@Text@sf@@QAEXABVFont@2@@Z)
+ui.obj : error LNK2001: unresolved external symbol "public: void __thiscall sf::Text::setString(class sf::String const &)" (?setString@Text@sf@@QAEXABVString@2@@Z)
+ui.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Blue" (?Blue@Color@sf@@2V12@B)
+D:\project\Sorting-Algorithm-Visualization\sorting\Release\sorting.exe : fatal error LNK1120: 42 unresolved externals
