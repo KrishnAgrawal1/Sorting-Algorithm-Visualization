@@ -1,139 +1,36 @@
-﻿  main.cpp
-  audio.cpp
-  game.cpp
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(65,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(65,64): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(65,64): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(65,64): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(65,64): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(65,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(65,46): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(65,46): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(65,46): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(65,46): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(278,21): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(278,21): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(278,21): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(278,21): warning C4244:             T=unsigned int
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(278,21): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(279,25): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(279,25): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(279,25): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(279,25): warning C4244:             T=unsigned int
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(279,25): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(284,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(284,77): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(284,77): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(284,77): warning C4244:             T=unsigned int
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(284,77): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(284,77): warning C4244:         and
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(284,77): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(284,77): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(284,77): warning C4244:         ]
-  Sorting_algo.cpp
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(5,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(24,19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(37,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(57,19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(71,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(86,19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(106,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(135,8): warning C4244: 'initializing': conversion from 'const T' to 'int', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(135,8): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(135,8): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(135,8): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(135,8): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(146,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(149,44): warning C4244: '=': conversion from 'const T' to '_Ty', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(149,44): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(149,44): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(149,44): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(149,44): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(149,44): warning C4244:         and
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(149,44): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(149,44): warning C4244:             _Ty=int
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(149,44): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(159,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(162,47): warning C4244: '=': conversion from 'const T' to '_Ty', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(162,47): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(162,47): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(162,47): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(162,47): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(162,47): warning C4244:         and
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(162,47): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(162,47): warning C4244:             _Ty=int
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(162,47): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,51): warning C4244: 'argument': conversion from '_Ty' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,51): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,51): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,51): warning C4244:             _Ty=int
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,51): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,51): warning C4244:         and
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,51): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,51): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,51): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,41): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,41): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,41): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(177,41): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,52): warning C4244: 'argument': conversion from '_Ty' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,52): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,52): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,52): warning C4244:             _Ty=int
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,52): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,52): warning C4244:         and
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,52): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,52): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,52): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,41): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,41): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,41): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(179,41): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(182,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,51): warning C4244: 'argument': conversion from '_Ty' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,51): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,51): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,51): warning C4244:             _Ty=int
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,51): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,51): warning C4244:         and
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,51): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,51): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,51): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,40): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,40): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,40): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(193,40): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(196,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,52): warning C4244: 'argument': conversion from '_Ty' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,52): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,52): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,52): warning C4244:             _Ty=int
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,52): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,52): warning C4244:         and
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,52): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,52): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,52): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,40): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,40): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,40): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(206,40): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(209,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(220,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(244,13): warning C4244: 'initializing': conversion from 'const T' to 'int', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(244,13): warning C4244:         with
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(244,13): warning C4244:         [
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(244,13): warning C4244:             T=float
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(244,13): warning C4244:         ]
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(256,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(289,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\project\Sorting-Algorithm-Visualization\sorting\src\Sorting_algo.cpp(295,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  ui.cpp
+﻿  game.cpp
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(70,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(70,64): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(70,64): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(70,64): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(70,64): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(70,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(70,46): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(70,46): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(70,46): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(70,46): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(287,21): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(287,21): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(287,21): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(287,21): warning C4244:             T=unsigned int
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(287,21): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(288,25): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(288,25): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(288,25): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(288,25): warning C4244:             T=unsigned int
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(288,25): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(293,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(293,77): warning C4244:         with
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(293,77): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(293,77): warning C4244:             T=unsigned int
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(293,77): warning C4244:         ]
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(293,77): warning C4244:         and
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(293,77): warning C4244:         [
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(293,77): warning C4244:             T=float
+D:\project\Sorting-Algorithm-Visualization\sorting\src\game.cpp(293,77): warning C4244:         ]
   Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 1068 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  3 of 1068 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   sorting.vcxproj -> D:\project\Sorting-Algorithm-Visualization\sorting\x64\Release\sorting.exe

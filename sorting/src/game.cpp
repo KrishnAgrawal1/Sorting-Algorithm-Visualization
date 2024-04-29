@@ -54,17 +54,26 @@ void Game::pollEvents()
 		switch (this->ev.type)
 		{
 			case sf::Event::Closed:
+				this->terminateSorting = 1;
 				this->winmain->close();
 				break;
 
 			case sf::Event::KeyPressed:
-				if(this->ev.key.code == sf::Keyboard::Escape) this->winmain->close();
+				if (this->ev.key.code == sf::Keyboard::Escape)
+				{
+					this->terminateSorting = 1;
+					this->winmain->close();
+				}
 				break;
 
 			case sf::Event::MouseButtonReleased:
 				sf::Vector2f mousePosition(ev.mouseButton.x, ev.mouseButton.y);
 
-				if (this->interface.exitBtShape.getGlobalBounds().contains(mousePosition)) this->winmain->close();
+				if (this->interface.exitBtShape.getGlobalBounds().contains(mousePosition))
+				{
+					this->terminateSorting = 1;
+					this->winmain->close();
+				}
 
 				if (this->interface.startBtShape.getGlobalBounds().contains(mousePosition) && !this->sortingThread.valid())
 				{
