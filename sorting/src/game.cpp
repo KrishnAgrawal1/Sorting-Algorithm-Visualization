@@ -13,6 +13,9 @@ void Game::initWindow()
 	this->sortingAlgoUsing = 1;
 
 	this->videoMode = sf::VideoMode::getDesktopMode();
+	//this->videoMode.height -= 10;
+	//this->videoMode.width -= 10;
+	//sf::Style::Fullscreen
 	this->winmain = new sf::RenderWindow(this->videoMode, "Sorting", sf::Style::Titlebar | sf::Style::Close | sf::Style::Fullscreen);
 
 	this->winmain->setFramerateLimit(60);
@@ -290,7 +293,7 @@ void Game::initRectangle(int numberOfElements)
 	for (int i = 0; i < numberOfElements; i++)
 	{
 		sf::RectangleShape r;
-		sf::Vector2f rectanglePosition((widthOfRacta * i) + padding.x, WINDOW_SIZE.y);
+		sf::Vector2f rectanglePosition((widthOfRacta * i) + padding.x, WINDOW_SIZE.y-50);
 
 		r.setPosition(rectanglePosition);
 		r.setSize(sf::Vector2f(widthOfRacta, -1 * numbers[i] * heightMultiplier));
